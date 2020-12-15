@@ -61,6 +61,20 @@ use DOMNode;
  * @example   example-modify-01.php Read, modify and save a PropertyList
  * ------------------------------------------------------------------------------
  */
+ require_once('CFType.php');
+ require_once('CFArray.php');
+ require_once('CFBoolean.php');
+ require_once('CFData.php');
+ require_once('CFDate.php');
+ require_once('CFDictionary.php');
+ require_once('CFNumber.php');
+ require_once('CFBinaryPropertyList.php');
+ require_once('CFString.php');
+ require_once('CFTypeDetector.php');
+ require_once('CFUid.php');
+ require_once('IOException.php');
+ require_once('PListException.php');
+
 class CFPropertyList extends CFBinaryPropertyList implements Iterator
 {
   /**
